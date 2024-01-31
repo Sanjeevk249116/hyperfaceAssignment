@@ -1,0 +1,10 @@
+#root {
+  color: #ffffff;
+  background: #101010;
+  font-family: "Sen", sans-serif;
+  font-optical-sizing: auto;
+}
+.App{
+  max-width: 1440px;
+  margin: 0 auto;
+ }
