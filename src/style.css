@@ -108,7 +108,7 @@
 .section_Top > h1 {
   color: var(--Pure-White, #fff);
   font-feature-settings: "clig" off, "liga" off;
- 
+ margin-bottom: -9px;
   font-size: 22px;
   font-style: normal;
   font-weight: 800;
@@ -178,21 +178,27 @@
   margin-top: -6px;
 }
 .sec2 {
-  margin-top: 16px;
+  margin-top: 30px;
 }
 
 /* Tweets part css */
 
 .tweet_top {
-  padding-bottom: 278px;
+  padding-bottom: 48px;
   padding-left: 24px;
   padding-right: 24px;
+  padding-top: 30px;
+}
+@media only screen and (max-width: 500px) {
+  .navbar2{
+    width: 92%;
+  }
 }
 
 .tweet_top > h1 {
   color: var(--Pure-White, #fff);
   font-feature-settings: "clig" off, "liga" off;
-
+margin-bottom: -9px;
   font-size: 22px;
   font-style: normal;
   font-weight: 800;
